@@ -12,7 +12,7 @@ const fetchPokemon = async (id) => {
 }
 
 fetchPokemon(100).then((data) =>{
-    console.log(data.name, data.types[0].type.name,data.height,data.moves[0].move.name,data.weight, data.color)
+    console.log(data.name, data.types[0].type.name,data.height,data.moves[0].move.name,data.weight)
 })
 
     
